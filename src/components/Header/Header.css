@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.header {
+    background: linear-gradient(225deg, #00d2ff 0%, #3a47d5 100%);
+    padding: 10em 0 10em 0;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 6em;
+    margin-bottom: -.5em;
+}
+
+.title-under {
+    color: #fff;
+    padding-bottom: 3em;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2em;
+}
+
+.header-cards {
+    padding-top: 5em;
+    padding-left: 5em;
+    text-align: center;
+}
+
+.searchbar {
+    font-family: 'Dongle', sans-serif;
+}
+
+::placeholder {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1em;
+}
+
+.searchText {
+    font-size: 2.5em !important;
+    border-radius: 1em !important;
+}
+
+.search-icon {
+    font-size: 2em;
+	align-items: center;
+    position: absolute;
+    right: 1em;
+    top: .5em;
+    color: #00d2ff;
+}
+
+.card {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5em;
+    height: 25rem;
+}
+
+.card-title {
+    font-size: 1.5em !important;
+}
+
+.card-button{
+    font-size: 1em !important;
+}
+
+.card-text {
+    line-height: 1em;
+    color: #6c757d;
+}
+
+.card-temp {
+    text-align: center;
+    margin-top: .1em;
+    font-size: 4rem;
+    float: left;
+}
+
+.card-image {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.card-forecast-temps {
+    text-align: center;
+    font-size: 1.2em;
+    margin: .7em 0 0 .3em;
+    float: left;
+    line-height: .75em;
+}

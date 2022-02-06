@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.footer {
+    margin-top: 3em;
+    background: linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%);
+    height: 100%;
+    font-family: 'Dongle', sans-serif;
+    color: #fff;
+    line-height: 1.5em;
+    padding-left: 5em;
+}
+
+.footer-title-left {
+    padding: 1em 0 1em 2em;
+    font-size: 2rem;
+}
+
+.footer-item-left {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}
+
+.footer-title-right {
+    padding: 1em 5rem 1em 0;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.footer-item-right {
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    text-align: right;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #3a47d5;
+}
+
+.footer-icon {
+    font-size: 1rem;
+}
+
+.footer-group {
+    padding-bottom: 1em;
+}
