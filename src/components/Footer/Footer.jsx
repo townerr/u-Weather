@@ -15,7 +15,7 @@ const Footer = () => {
         <Col></Col>
         <Col className='footer-group'>
           <div className='footer-title-right'>Links:</div>
-          <div className='footer-item-right'><a href='http://github.com' target="_blank" rel="noreferrer" className='footer-link'>Soruce On Github <GoLinkExternal className='footer-icon'/> </a></div>
+          <div className='footer-item-right'><a href='https://github.com/townerr/u-Weather' target="_blank" rel="noreferrer" className='footer-link'>Soruce On Github <GoLinkExternal className='footer-icon'/> </a></div>
           <div className='footer-item-right'><a href='http://weatherapi.com' target="_blank" rel="noreferrer" className='footer-link'>WeatherApi <GoLinkExternal className='footer-icon'/> </a></div>
           <div className='footer-item-right'><a href='http://rainviewer.com' target="_blank" rel="noreferrer" className='footer-link'>Rainviewer <GoLinkExternal className='footer-icon'/> </a></div>
         </Col>
