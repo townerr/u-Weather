@@ -14,7 +14,7 @@ const AppBody = ({data, setData}) => {
   //Get lat and long from data
   React.useEffect(() => {
     if(data != null) {
-      const url = 'http://api.weatherapi.com/v1/forecast.json?key=' + process.env.REACT_APP_API_KEY + '&q='+ data +'&days=7&aqi=no&alerts=no';
+      const url = 'https://api.weatherapi.com/v1/forecast.json?key=' + process.env.REACT_APP_API_KEY + '&q='+ data +'&days=7&aqi=no&alerts=no';
       axios.get(url).then((res) => {
         setLatValue(res.data.location.lat);
         setLongValue(res.data.location.lon);

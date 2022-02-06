@@ -10,7 +10,7 @@ const WeatherCard = (props) => {
 
   	//Get data from api and load into weatherData
   	React.useEffect(() => {
-		const url = 'http://api.weatherapi.com/v1/forecast.json?key=' + process.env.REACT_APP_API_KEY + '&q='+ props.zip +'&days=7&aqi=no&alerts=no';
+		const url = 'https://api.weatherapi.com/v1/forecast.json?key=' + process.env.REACT_APP_API_KEY + '&q='+ props.zip +'&days=7&aqi=no&alerts=no';
 		axios.get(url).then((res) => {
 			setWeatherData(res.data);
 			setHasLoaded(true);
