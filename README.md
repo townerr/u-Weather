@@ -1,7 +1,7 @@
 # u-Weather
 A simple weather application.
 
-[Web App Link](condescending-meitner-9a5573.netlify.app)
+[Web App Link](https://condescending-meitner-9a5573.netlify.app/)
 
 ![Web app preview gif](https://i.imgur.com/1JXaEl7.gif)
 
